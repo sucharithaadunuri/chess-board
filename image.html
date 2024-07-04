@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+
+        .box:active img{
+            display: block;
+            background-color: aquamarine;
+            border: 2px;
+        }
+        p{
+            position: absolute;
+            display: none;
+            font-size: x-large;
+            text-align: center;
+            margin-left: 140px;
+        }
+
+        img{
+            display:none;
+            margin-left: 70px;
+            margin-top: 60px;
+        }
+        .box:hover > p{
+            display: block;   
+        }
+        .box{   
+            cursor: pointer;
+            background-color: aliceblue;
+            margin: 50px;
+            display: inline-block;
+            margin-left: 300px;
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <fieldset>
+    
+    <div class="box">
+        <p>cat</p>
+        <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" width="150">
+    </div>
+
+    <div class="box">
+        <p>Dog</p>
+        <img src="https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=67773a9d419786091c958b2ad08eae5e" width="150">
+    </div>
+
+        <div class="box">
+            <p>rabbit</p>
+            <img src="https://i.pinimg.com/originals/30/67/73/30677303cd9adde0abf094c7985c9a11.jpg" width="150" height="150">
+        </div>
+
+            <div class="box">
+                <p>bear</p>
+             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg"width="150" height="150">
+            </div>
+        
+    </div>
+    </fieldset>
+</body>
+</html>

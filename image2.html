@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-color: lavender; 
+        }
+        h1{
+            background-color:aqua;
+            border: 2px solid black;
+            display: inline-block;
+            margin: 40px;
+            padding: 40px;
+            margin-left: 150px;
+        }
+        img{
+            display: none;
+            position: absolute;
+            margin-left: 600px;
+            margin-top: 120px;
+            border: 2px solid black;
+        }
+        h1:hover +img{
+            display: block;
+        }
+fieldset{
+    
+    background-image: linear-gradient(to bottom right ,rgb(250, 114, 250) ,rgb(102, 102, 201));
+    
+}
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+    <div>
+      <h1>Cat</h1>
+        <img src="https://images.theconversation.com/files/560110/original/file-20231117-29-fv986f.jpg?ixlib=rb-4.1.0&rect=0%2C15%2C5048%2C3340&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip" width="300px" height="300px">
+        <h1>Dog</h1>
+        <img src="https://www.pedigree.com/cdn-cgi/image/height=617,f=auto,quality=90/sites/g/files/fnmzdf3076/files/2023-05/what-breed-my-dog-540x300.png" width="350px" height="300px">
+        <h1>monkey</h1>
+        <img src="https://etimg.etb2bimg.com/photo/106911096.cms" width="300px" height="300px">
+        <h1>Rabbit</h1>
+        <img src="https://www.thesprucepets.com/thmb/iDUukmHiOhz2Xoo4xMWrW2PpGUU=/3300x0/filters:no_upscale():strip_icc()/white-hotot-rabbit-eating-grass-509265984-5c0da06546e0fb0001366ac0.jpg" width="300px" height="300px">
+    </div>
+    </fieldset>
+</body>
+</html>
